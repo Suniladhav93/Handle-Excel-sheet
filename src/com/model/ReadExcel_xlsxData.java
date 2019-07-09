@@ -22,6 +22,7 @@ public class ReadExcel_xlsxData
 		XSSFCell cell=row.getCell(2);
 		System.out.println("cell value is :" + cell.getStringCellValue());
 		System.out.println("excelsheet updated in git hub");
+		System.out.println("excelsheet updated in excel from github");
 		//no of rows
 		int rows=sheet.getLastRowNum();
 		System.out.println("The no of rows are : " + rows);
